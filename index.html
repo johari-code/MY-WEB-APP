@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEB MAIL</title>
+    <title>Mental Health Awareness</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <H1>My Web app</H1>
+    <header>
+        <div class="container">
+            <h1>Mental Health Matters</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Prioritize Your Mental Well-Being</h2>
+            <p>Explore resources, connect with support, and learn to care for your mental health.</p>
+            <a href="#resources" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Mental Health</h2>
+            <p>Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also determines how we handle stress, relate to others, and make choices.</p>
+        </div>
+    </section>
+
+    <section id="resources">
+        <div class="container">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="#">Helpline Numbers</a></li>
+                <li><a href="#">Therapist Finder</a></li>
+                <li><a href="#">Self-Care Tips</a></li>
+                <li><a href="#">Mental Health Articles</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mental Health Awareness. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
